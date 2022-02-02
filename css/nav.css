@@ -1,0 +1,168 @@
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-menu {
+  margin: -0.125rem 0 0;
+}
+#a{
+      position: absolute;
+      top: 11px;
+      font-family: georgia;
+      font-size:16px;
+      font-weight: bold;
+    }
+    #b{
+      position: absolute;
+      top: 32px;
+      font-family: georgia;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    #c{
+      position: absolute;
+      top: 53px;
+      font-family: INHERIT;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    #nav{
+      margin-left: 250px;
+      
+    }
+
+    #ser{
+      padding-left: 58px;
+    }
+   
+    #right{
+      position: absolute;
+      /*left: 1050px;*/
+      right:10px;
+
+    }
+    #space{
+      padding-right: 25px;
+      font-size: 20px;
+    }
+    #mainnav{
+      padding-left: 35px;
+      min-width: 100%;
+    }
+    #mainnav1{
+       min-width: 100%;
+       padding-left: 35px;
+    }
+    #mainnav{
+      position: sticky !important;
+      top:0;
+      left: 0;
+      right: 0;
+      z-index:999;
+    }
+    .mail-sm{
+      display:none;
+    }
+    #nav1>li:last-child{
+      display:inline-block;
+    }
+    @media only screen and (max-width: 600px) {
+    #a{
+      left: 54px;
+      font-size:15px;
+      font-weight: none;
+    }
+    #b{
+      left: 54px;
+      font-size:15px;
+      font-weight: none;
+    }
+    #c{
+      display: none;
+    }
+    #nav{
+      margin-left: 0px;     
+    }
+    
+    #ser{
+      padding-left: 0px;
+      padding-top: 20px;
+    }
+    #space{
+      display: inline;
+      list-style: none;
+      margin:0px;
+      padding: 0px;
+      top: 0px 0px 0px 0px;
+    }
+    #nav11{
+      margin:0px;
+      padding: 0px;
+      top: 0px 0px 0px 0px;
+    }
+    #right{
+       display: absolute;
+       position: relative;
+      left: 90px;
+
+    }
+    #mainnav{
+             padding-left: 0px;
+       
+    }
+    ul#mainnav1{
+      list-style: none;
+    }
+    ul#mainnav1 li{
+      display: inline !important;
+    }
+    nav{
+      min-width: 100% !important;
+    }
+
+   }
+   
+   /*exper*/
+   nav .nav-link{
+       font-size:15px;
+       color:#000 !important;
+   }
+   @media only screen and (min-width:1000px){
+    .dropdown-menu{
+      width:150px;
+   }
+   .dropdown-menu a{
+     font-size:14px;
+     text-transform:uppercase;
+     white-space:normal;
+     padding:0.25rem 0.5rem;
+    
+   }
+   }
+  
+   /*exper*/
+   
+   
+@media only screen and (max-width:992px){
+  #nav1{
+    display: flex;
+    flex-direction: row;
+
+  }
+  
+  #space{
+    padding:0px 15px;
+  }
+  .mail-sm{
+    display:inline-block;
+  }
+}
+
+@media only screen and (max-width:730px){
+  #nav1>li:last-child{
+    display:none;
+  }
+  .nav-item{
+      padding-left:3.5rem;
+  }
+}
+
